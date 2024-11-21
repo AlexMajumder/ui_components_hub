@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_components_hub/card.dart';
 import 'package:ui_components_hub/screens/slider_screen.dart';
 class WidgetApp extends StatefulWidget {
   const WidgetApp({super.key});
@@ -11,7 +12,7 @@ class _WidgetAppState extends State<WidgetApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SliderScreen(),
+      home: CardScreen(),//SliderScreen()
     );
   }
 }
