@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:ui_components_hub/fragment/balance_fragment.dart';
+import 'package:ui_components_hub/fragment/message_fragment.dart';
+import 'package:ui_components_hub/fragment/notification_fragment.dart';
+import 'package:ui_components_hub/fragment/post_fragment.dart';
+import '../fragment/home_fragment.dart';
 
 class TapBarScreen extends StatefulWidget {
   const TapBarScreen({super.key});
@@ -13,7 +18,7 @@ class _TapBarScreenState extends State<TapBarScreen> {
     return DefaultTabController(
         length: 5,
         child: Scaffold(
-          appBar: AppBar(title: Text('Tab Bar Screen',),
+          appBar: AppBar(title: const Text('Tab Bar Screen',),
           bottom: const TabBar(
               isScrollable: true,
               tabs: [
@@ -23,6 +28,13 @@ class _TapBarScreenState extends State<TapBarScreen> {
             Tab(icon: Icon(Icons.message),text: 'message',),
             Tab(icon: Icon(Icons.balance),text: 'balance',),
           ]),),
+          body: TabBarView(children: [
+            HomeFragment(),
+            PostFragment(),
+            NotificationFragment(),
+            MessageFragment(),
+            BalanceFragment()
+          ]),
         ));
   }
 }
