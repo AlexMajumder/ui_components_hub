@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_components_hub/screens/list_view_screen.dart';
+import 'package:ui_components_hub/screens/tap_bar_screen.dart';
 class WidgetApp extends StatefulWidget {
   const WidgetApp({super.key});
 
@@ -11,7 +11,7 @@ class _WidgetAppState extends State<WidgetApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ListViewScreen(),
+      home: TapBarScreen(),
     );
   }
 }
