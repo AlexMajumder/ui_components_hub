@@ -30,7 +30,7 @@ class PictureSliderWidget extends StatelessWidget {
             return Container(
               margin: const EdgeInsets.symmetric(horizontal: 5.0),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10.0),
+                borderRadius: BorderRadius.circular(12.0),
                 image: DecorationImage(
                   image: AssetImage(path),
                   fit: BoxFit.cover,
