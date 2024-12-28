@@ -12,7 +12,7 @@ class _SliderScreenState extends State<SliderScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Slider'),),
+      appBar: AppBar(title: const Text(' carocsle Slider'),),
       body: PictureSliderWidget(),
     );
   }
