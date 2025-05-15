@@ -15,7 +15,7 @@ class CardScreen extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(126),
             ),
-            color: const Color.fromRGBO(199, 70, 178, 4),
+            color: const Color.fromRGBO(199, 70, 178, 4),//
             shadowColor: const Color.fromRGBO(197, 78, 2, 4),
             child: const SizedBox(
               height: 200,
