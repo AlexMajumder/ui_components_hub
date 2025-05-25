@@ -14,6 +14,7 @@ class _WidgetAppState extends State<WidgetApp> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: AnimationScreen() ,//StepperScreen() //CardScreen(),//SliderScreen()
     );
   }
