@@ -12,7 +12,7 @@ class StepperScreen extends StatefulWidget {
 List<String> titles = ['Step One', 'Step Two', 'Step Three', 'Step Four', 'Step Five'];
 List<String> subtitles = ['Subtitle for Step 1', 'Subtitle for Step 2', 'Subtitle for Step 3', 'Subtitle for Step 4', 'Subtitle for Step 5'];
 
-List<Steps> customSteps0 = [
+List<Steps> customSteps0 = [//kfhy
   ...List.generate(
     5,
         (i) => Steps(
